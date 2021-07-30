@@ -22,3 +22,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | DESTDIR="$HOME/.icons" sh
 
 #flameshot-i3 keybinding
 echo "bindsym $mod+p flameshot gui -p ~/Pictures" >> ~/.config/i3/config
+
+#xbindkeys
+sudo apt-get install xdotool xbindkeys
+xbindkeys --defaults-guide > ~/.xbindkeysrc.scm
