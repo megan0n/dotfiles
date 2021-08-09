@@ -26,3 +26,6 @@ echo "bindsym $mod+p flameshot gui -p ~/Pictures" >> ~/.config/i3/config
 #xbindkeys
 sudo apt-get install xdotool xbindkeys
 xbindkeys --defaults-guide > ~/.xbindkeysrc.scm
+
+#qbit
+wget -i plugins
