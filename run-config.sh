@@ -28,4 +28,4 @@ sudo apt-get install xdotool xbindkeys
 xbindkeys --defaults-guide > ~/.xbindkeysrc.scm
 
 #qbit
-wget -i plugins
+wget -i plugins -P ~/.local/share/data/qBittorrent/nova3/engines
