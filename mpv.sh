@@ -2,5 +2,5 @@
 
 sudo apt-get install mpv
 sudo mkdir ~/.config/mpv/scripts
-cp *.lua ~/.config/mpv/scripts
-cp input.conf ~/.config/mpv/
+sudo cp *.lua ~/.config/mpv/scripts
+sudo cp input.conf ~/.config/mpv/
