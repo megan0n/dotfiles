@@ -10,3 +10,5 @@ sudo cp settings /usr/local/bin
 default_border pixel 0
 default_floating_border pixel 0
 
+exec_always --no-startup-id ~/.screenlayout/*.sh
+
