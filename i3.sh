@@ -13,4 +13,5 @@ default_floating_border pixel 0
 exec_always --no-startup-id ~/.screenlayout/*.sh
 bindsym $mod+p flameshot gui -p ~/Pictures
 exec blueman-applet
+exec --no-startup-id xsetroot -bg black
 
