@@ -1,7 +1,7 @@
 # config
-Shell script to populate freshly-installed Debian systems with packages and config dot files 
-  * Vim
-  * Emacs (Doom)
+Shell script to populate Debian-based systems with packages and config dot files 
+  * vim
+  * emacs
   * mpv
   * ssh
   * i3
