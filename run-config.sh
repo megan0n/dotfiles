@@ -3,9 +3,7 @@
 #Virtualbox
 #Applications
 sudo apt-get update
-sudo apt-get install -y i3 vim feh mpv terminator spacefm ssh sshfs git \
-	python3 python3-pip rsync curl qbittorent \
-	dia gnumeric flameshot pavucontrol
+sudo apt-get install -y i3 vim feh mpv terminator spacefm ssh sshfs git python3 python3-pip rsync curl qbittorent dia gnumeric flameshot pavucontrol
 
 #list dependencies to file
 tar xzf package.tar.gz
