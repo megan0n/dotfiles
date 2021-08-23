@@ -1,4 +1,11 @@
 call plug#begin('~/.vim/plugged')
-Plug 'tomasiser/vim-code-dark'
+Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdtree'
 call plug#end()
-colorscheme codedark
+
+colorscheme ron 
+set bg=dark
+set t_Co=256
+set mouse=a
+set number
+set wrap!
