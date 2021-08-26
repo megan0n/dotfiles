@@ -7,8 +7,8 @@ sudo apt-get install -y i3 vim feh mpv terminator spacefm ssh sshfs git python3 
 
 #list dependencies to file
 tar xzf package.tar.gz
-python setup.py instaell --record file.txt
-xarfs rm -rf < file.txt
+python setup.py install --record list.txt
+xargs rm -rf < list.txt
 
 #i3-gtk compatibility issue
 exec --no-startup-id /usr/lib/gsd-xsettings
