@@ -18,5 +18,6 @@ set mouse=a
 set number
 set wrap!
 
+let g:NERDTreeWinSize=20
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
