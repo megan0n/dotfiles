@@ -1,23 +1,23 @@
 call plug#begin('~/.vim/plugged')
-Plug 'tomasiser/vim-code-dark'
-Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
+Plug 'vim-scripts/c.vim'
+Plug 'vim-scripts/loremipsum'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'protesilaos/tempus-themes-vim'
 call plug#end()
 
 set t_Co=256
-set background=dark
-colorscheme codedark 
-
-highlight Normal ctermbg=NONE
-highlight nonText ctermbg=NONE
-highlight EndOfBuffer ctermbg=NONE
-highlight LineNr ctermbg=NONE
-highlight VertSplit ctermbg=NONE
+syntax enable
+colorscheme tempus_totus
 
 set mouse=a
 set number
 set wrap!
 
 let g:NERDTreeWinSize=20
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#formatter = 'unique_tail'
+
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab

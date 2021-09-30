@@ -15,7 +15,7 @@ cd
 #git 2.23
 sudo apt-get install devscripts dpkg-dev build-essential
 sudo apt-get build-dep git
-echo "deb http://deb.debian.org/debian buster-backports main" > /etc/apt/sources.list
+#echo "deb http://deb.debian.org/debian buster-backports main" > /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get -t buster-backports install git
 
